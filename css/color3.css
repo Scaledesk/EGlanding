@@ -1,4 +1,5 @@
 .btn-login,
+.learn-more,
 .scrollup,
 .single-service-item .top-border:before,
 .single-service-item .right-border:before,
@@ -13,24 +14,24 @@
 .services-block-four .inner-box .icon-box:before
 
 {
-	background: #ff3f38 !important;
+	/*background: #007bff !important;*/
+	background: #5080d1!important;
 }
 
-.learn-more{
-	background: #007bff;
-	border-color: #007bff !important
-}
 
 
 .btn-login,
 .btn-login:focus,
 .btn-login:hover,
+.learn-more,
 .testimonial .testimonial-item:hover .content,
 .main-footer .newsletter-widget input:focus,
 .main-footer .newsletter-widget select:focus{
-	border-color: #ff3f38 !important;
+	border-color: #5080d1 !important;
 }
-
+a{
+color: #5080d1;	
+}
 
 .btn-login:focus,
 .btn-login:hover,
@@ -46,12 +47,12 @@
 .main-footer .contact-info li .icon,
 .main-footer .newsletter-widget .send-btn:hover
 {
-	color: #ff3f38 !important;
+	color: #5080d1 !important;
 }
 
 .single-service-item,
 .service-left-bg {
-	border-left-color: #ff3f38 !important;
+	border-left-color: #5080d1 !important;
 }
 
 

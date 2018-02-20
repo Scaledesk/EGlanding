@@ -34,6 +34,10 @@
 
 
 }
+@font-face {
+font-family: museo900regular;
+ src: url(../fonts/font-museo/Museo900-Regular.eot)
+}
 
 .padding-t-10 {
     padding-top: 10px;
@@ -107,6 +111,31 @@
 @media (max-width: 767px){
 .visible-xs {
     display: block!important;
+}
+.hidden-xs {
+    display: none!important;
+}
+
+.more-about-us .theme-shape-one{
+    max-width: 100%;
+}
+.footer-logo {
+    margin: auto;
+    width: 166px;
+}
+.social-icon span {
+    display: none;
+}
+.social-icon {
+    text-align: center!important;
+}
+li.copyright-link{
+  
+    display: block;
+}
+li.copyright-link a{
+    font-size: 12px;
+    display: block;
 }
 }
 
