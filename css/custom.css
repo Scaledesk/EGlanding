@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: museo;
+    src: url(../fonts/font-museo/museo300-regular.otf);
+
+
+
+}
+
+@font-face {
+    font-family: museo-700;
+    src: url(../fonts/font-museo/museo700-regular.otf);
+
+
+
+}
+
+@font-face{
+    font-family: museo-sans;
+    src: url(../fonts/font-museo/MuseoSans-300.otf);
+
+
+}
+
+@font-face{
+    font-family: museo-500;
+    src: url(../fonts/font-museo/museo500-regular.otf);
+
+}
+@font-face {
+    font-family: museo900;
+    src: url(../fonts/font-museo/Museo900.otf);
+
+
+
+}
+
+.padding-t-10 {
+    padding-top: 10px;
+}
+ section.call-to-action{
+    margin-top: 145px;
+
+ }
+
+ .visible-lg, .visible-md, .visible-sm, .visible-xs {
+    display: none;
+}
+
+
+
+ #footer {
+    padding: 33px 0;
+}
+
+.footer-logo {
+    width: 184px;
+}
+
+.social-icon {
+    padding: 0;
+    text-align: right;
+        margin-top: 13px;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0 8px;
+}
+
+.social-icon li i {
+    border: 1px solid #879aba;
+    border-radius: 50%;
+    color: #879aba;
+    font-size: 17px;
+    height: 38px;
+    margin-right: 6px;
+    padding: 10px;
+    width: 38px;
+}
+
+.social-icon li i.fa-facebook {
+    padding: 10px 13px;
+}
+.footer_menu {
+    border-top: 1px solid #dde2eb;
+    margin-top: 25px;
+    padding-top: 18px;
+    width: 100%;
+}
+.footer_menu > ul {
+    margin: 14px 0 0;
+    padding: 0;
+    text-align: center;
+}
+.footer_menu li {
+    display: inline-block;
+    list-style: outside none none;
+}
+.footer_menu a {
+    padding: 12px;
+    color: #879aba;
+    font-size: 14px;
+}
+
+@media (max-width: 767px){
+.visible-xs {
+    display: block!important;
+}
+}
+
+
+@media only screen and (max-device-width: 1366px) and (min-device-width: 769px){
+footer .social-icon {
+    float: right;
+}
+}
